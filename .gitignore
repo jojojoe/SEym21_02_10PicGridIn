@@ -1,0 +1,7 @@
+PGIymPicGridIn.xcodeproj/xcuserdata/
+PGIymPicGridIn.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+PGIymPicGridIn.xcodeproj/project.xcworkspace/xcuserdata/
