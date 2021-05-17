@@ -11,6 +11,7 @@
 		EB04BF8526395A4B004DCA3D /* PGISettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04BF8426395A4B004DCA3D /* PGISettingVC.swift */; };
 		EB04BF8826395A5D004DCA3D /* PGIStoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04BF8726395A5D004DCA3D /* PGIStoreVC.swift */; };
 		EB04BF8B26395A95004DCA3D /* PGIEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB04BF8A26395A95004DCA3D /* PGIEditVC.swift */; };
+		EB1BEECF26467879001F6666 /* MarsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1BEECE26467879001F6666 /* MarsTool.m */; };
 		EB97F590263930DF0052952D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97F58F263930DF0052952D /* AppDelegate.swift */; };
 		EB97F592263930DF0052952D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97F591263930DF0052952D /* SceneDelegate.swift */; };
 		EB97F594263930DF0052952D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB97F593263930DF0052952D /* ViewController.swift */; };
@@ -58,6 +59,8 @@
 		EB04BF8426395A4B004DCA3D /* PGISettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGISettingVC.swift; sourceTree = "<group>"; };
 		EB04BF8726395A5D004DCA3D /* PGIStoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGIStoreVC.swift; sourceTree = "<group>"; };
 		EB04BF8A26395A95004DCA3D /* PGIEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PGIEditVC.swift; sourceTree = "<group>"; };
+		EB1BEECD26467879001F6666 /* MarsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarsTool.h; sourceTree = "<group>"; };
+		EB1BEECE26467879001F6666 /* MarsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarsTool.m; sourceTree = "<group>"; };
 		EB25F7942643DB910039E1B9 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
 		EB97F58C263930DF0052952D /* PGIymPicGridIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PGIymPicGridIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB97F58F263930DF0052952D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -170,6 +173,8 @@
 		EB97F783263943B30052952D /* Body */ = {
 			isa = PBXGroup;
 			children = (
+				EB97F58F263930DF0052952D /* AppDelegate.swift */,
+				EB97F591263930DF0052952D /* SceneDelegate.swift */,
 				EB97F7F6263953090052952D /* Manager */,
 				EB97F7EC263949760052952D /* PingGuLoginManager */,
 				EB97F7EB2639492A0052952D /* MainV */,
@@ -180,8 +185,6 @@
 		EB97F785263943BD0052952D /* Root */ = {
 			isa = PBXGroup;
 			children = (
-				EB97F58F263930DF0052952D /* AppDelegate.swift */,
-				EB97F591263930DF0052952D /* SceneDelegate.swift */,
 				EB97F593263930DF0052952D /* ViewController.swift */,
 				EB97F595263930DF0052952D /* Main.storyboard */,
 				EB97F598263930E20052952D /* Assets.xcassets */,
@@ -190,6 +193,8 @@
 				EBB8FA81263A883C00432098 /* ExtensionToolPG.swift */,
 				EBB8FAA5263AA70A00432098 /* TEST.h */,
 				EBB8FAA6263AA70A00432098 /* TEST.m */,
+				EB1BEECD26467879001F6666 /* MarsTool.h */,
+				EB1BEECE26467879001F6666 /* MarsTool.m */,
 				EBB8FAA4263AA70900432098 /* PGIymPicGridIn-Bridging-Header.h */,
 				EB25F7942643DB910039E1B9 /* Configuration.storekit */,
 			);
@@ -461,6 +466,7 @@
 				EB04BF8526395A4B004DCA3D /* PGISettingVC.swift in Sources */,
 				EBB8FAC0263AA79A00432098 /* CoinManager.swift in Sources */,
 				EBB8FA99263AA6BE00432098 /* MGFontBar.swift in Sources */,
+				EB1BEECF26467879001F6666 /* MarsTool.m in Sources */,
 				EBEE052D263C0C0F00D9EFBD /* PGIStickerFullView.swift in Sources */,
 				EBB8FA9F263AA6BE00432098 /* TMTextTouchView.swift in Sources */,
 				EBCC4715263AB4F700DB15C5 /* PGISaveVC.swift in Sources */,
